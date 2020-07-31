@@ -33,6 +33,11 @@ header{
     color:#000;
 }
 
+main{
+    width:99%;
+    margin: 0 auto;
+}
+
 section{
     margin: 2em 0 0 6%;
     padding: 1.5em 2.5%;
@@ -55,17 +60,22 @@ footer{
 
 
 
-// Extra small devices (portrait phones, less than 576px)
-// No media query since this is the default in Bootstrap
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
 
-// Small devices (landscape phones, 576px and up)
+/* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { ... }
 
-// Medium devices (tablets, 768px and up)
+/* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { ... }
 
-// Large devices (desktops, 992px and up)
+/* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { ... }
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+    main{
+        width:100%;
+    }
+}
