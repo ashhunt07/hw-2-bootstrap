@@ -22,13 +22,16 @@ header{
     background-color: #fefefe;
     padding: 0 5%;
 }
+
 /* Main Navigation Styling */
-.navbar-brand{
+nav .navbar-brand{
     color:#444;
+    font-family: 'Great Vibes', cursive;
 }
 
-.navbar-brand:hover{
+nav .navbar-brand:hover{
     color:#59A0B0;
+    font-family: 'Great Vibes', cursive;
 }
 
 .nav-link{
@@ -37,7 +40,7 @@ header{
 
 .nav-link:hover{
     color:#59A0B0;
-    text-decoration: underline;
+    font-weight:500;
 }
 
 .nav-item, .nav-link {
@@ -76,6 +79,8 @@ footer{
     position: fixed;
     bottom:0;
     padding:.75em 0;
+    background-color:#222;
+    color:#a9a9a9;
 }
 
 
