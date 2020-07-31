@@ -1,19 +1,28 @@
+/* Main Body */
 body{
     width:100%;
     padding: 0 auto;
-    background-image: url('../images/funky-lines.png');
+    background-image: url('../images/black_thread_@2X.png');
     background-repeat: repeat;
     background-size: auto;
+}
+/* Universal Text Styling */
+h1, h2, h3, h4, h5, h5, p{
+    color: #444;
+}
+
+h2{
+    font-family: 'Great Vibes', cursive;
 }
 
 header{
     width:100%;
     position: absolute;
     z-index:10;
-    background-color: #fff;
+    background-color: #fefefe;
     padding: 0 5%;
 }
-
+/* Main Navigation Styling */
 .navbar-brand{
     color:#444;
 }
@@ -37,7 +46,7 @@ header{
     padding-top:.5em;
 }
 
-
+/* Main Content */
 main{
     width:99%;
     padding:3em 0;
@@ -45,16 +54,24 @@ main{
 }
 
 section{
-    margin: 2em 0 0 6%;
+    margin: 2.5em 0 2em 6%;
     padding: 1.5em 2.5%;
-    background-color: #fff;
+    background-color: #fefefe;
 } 
 
+/* Horizontal Rule after H2 */
+.separation{
+    padding-bottom: 1em;
+}
+
+
+/* About Image */
 .media img{
-    width: 40%;
+    width: 100%;
     margin-bottom: 0;
 }
 
+/* Footer */
 footer{
     position: fixed;
     bottom:0;
@@ -70,26 +87,46 @@ footer{
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { ... }
+@media  (min-width: 576px) { 
+    
+     /* About Image */
+     .media img{
+        width: 50%;
+
+ }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
- 
- }
+}
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
+@media  (min-width: 992px) { 
+    
+    .nav-item, .nav-link {
+        width:auto;
+        padding-top:0;
+        display:inline-block;
+    }
+
+     /* About Image */
+     .media img{
+        width: 50%;
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media  (min-width: 1200px) {
+
+    main{
+        width:100%;
+    }
+
     .nav-item, .nav-link {
         width:auto;
         text-align: right;
         padding-top:0;
     }
- }
 
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
 
-    main{
-        width:100%;
-    }
+}
 }
