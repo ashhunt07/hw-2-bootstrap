@@ -1,6 +1,6 @@
 body{
     width:100%;
-    padding: 5% auto;
+    padding: 0 auto;
     background-image: url('../images/funky-lines.png');
     background-repeat: repeat;
     background-size: auto;
@@ -8,6 +8,8 @@ body{
 
 header{
     width:100%;
+    position: absolute;
+    z-index:10;
     background-color: #fff;
     padding: 0 5%;
 }
@@ -29,12 +31,16 @@ header{
     text-decoration: underline;
 }
 
-.navbar-toggle{
-    color:#000;
+.nav-item, .nav-link {
+    width:100%;
+    text-align: right;
+    padding-top:.5em;
 }
+
 
 main{
     width:99%;
+    padding:3em 0;
     margin: 0 auto;
 }
 
@@ -67,10 +73,18 @@ footer{
 @media (min-width: 576px) { ... }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) { 
+ 
+ }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { ... }
+@media (min-width: 992px) { 
+    .nav-item, .nav-link {
+        width:auto;
+        text-align: right;
+        padding-top:0;
+    }
+ }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
