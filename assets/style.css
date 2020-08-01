@@ -61,7 +61,7 @@ main{
 
 section{
     margin: 2.5em 0 2em 6%;
-    padding: 1.5em 5%;
+    padding: 1.5em 0;
     background-color: #fefefe;
 } 
 
@@ -106,8 +106,14 @@ form .form-control::placeholder{
     background-color:#356069;
 }
 
+
+/* Card Styles */
 .card-columns {
     column-count: 1;
+  }
+
+  .card-text{
+      font-size: 14px;
   }
 
 
@@ -175,6 +181,7 @@ footer{
 
     .card-columns {
         column-count: 2;
+        padding: 0 2%;
       }
     
 
