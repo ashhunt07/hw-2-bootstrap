@@ -174,6 +174,11 @@ footer{
         padding: 0 1% 1.5em 1%;
      }
 
+     /* Social Icons */
+    .social{
+        width:40px;
+    }
+
      .card-columns {
         column-count: 1;
       }
@@ -190,6 +195,10 @@ footer{
         width: 50%;
         padding: 0 0 1em;
     }   
+      /* Social Icons */
+      .social{
+        width:40px;
+    }
 
     .card-columns {
           column-count: 1;
@@ -211,6 +220,10 @@ footer{
         width: 40%;
         padding: 0 0 1em;
     }
+      /* Social Icons */
+      .social{
+        width:40px;
+    }
 
     .card-columns {
         column-count: 2;
@@ -230,6 +243,11 @@ footer{
         width:auto;
         text-align: right;
         padding-top:0;
+    }
+
+      /* Social Icons */
+      .social{
+        width:40px;
     }
 
     form{
