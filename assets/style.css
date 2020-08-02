@@ -95,7 +95,7 @@ section{
 
 /* Social Icons */
 .social{
-    max-width: 60px;
+    max-width: 12%;
     display:inline-block;
 }
 
@@ -211,10 +211,10 @@ footer{
         width: 40%;
         padding: 0 0 1em;
     }
-      /* Social Icons */
-      .social{
-       max-width:60px;
-    }
+
+    .social{
+        max-width:8%;
+     }
 
     .card-columns {
         column-count: 2;
@@ -238,7 +238,7 @@ footer{
 
     /* Social Icons */
        .social{
-        max-width:60px;
+        max-width:6%;
      }
 
     form{
