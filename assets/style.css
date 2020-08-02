@@ -236,6 +236,11 @@ footer{
         padding-top:0;
     }
 
+    /* Social Icons */
+       .social{
+        max-width:60px;
+     }
+
     form{
         width:90%;
     }
